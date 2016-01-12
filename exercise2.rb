@@ -25,5 +25,15 @@ puts "I got " + 8.to_s + " hours of sleep last night.\n"
 puts "Don't forget your '+' signs!"
 
 #On to Problem 3:
-
 puts "45628 times 7839 is: #{45628 * 7839}! I did that with string interpolation."
+
+puts "45628 * 7839"
+
+#Problem 4 - I think the answer is going to be TRUE
+# left of the pipes, both conditions aren't true, so it will be false
+#right of the pipes, 10 == 1 is false, and calling ! on false (not false) will make it true. You end up with:
+# (false || true) false OR true, which yields true.
+
+puts "I predict the answer will be TRUE!"
+
+puts (10 < 20 && 30 < 20) || !(10 == 11)
