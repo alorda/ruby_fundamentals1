@@ -23,3 +23,7 @@ puts "Let's add an integer to a middle of a string!"
 puts "I got " + 8.to_s + " hours of sleep last night.\n"
 
 puts "Don't forget your '+' signs!"
+
+#On to Problem 3:
+
+puts "45628 times 7839 is: #{45628 * 7839}! I did that with string interpolation."
