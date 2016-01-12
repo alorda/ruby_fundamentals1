@@ -12,8 +12,13 @@ puts "I'm guessing you were born during or pretty close to the year #{2016 - age
 
 yes_no = gets.chomp.downcase
 
+puts "Let's use an if/else to see if I'm right:\n"
 if yes_no == "yes"
   puts "I was correct!"
 else
-  puts "I was wrong. Sad face. In binary."
+  puts "I was wrong. Sad face. In binary.\n"
 end
+
+puts "Let's us a ternary expression to see if I'm right:\n"
+
+puts yes_no == "yes" ? "I was correct!" : "I was wrong. Sad face. Binary sad face."
