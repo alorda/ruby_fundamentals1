@@ -19,6 +19,6 @@ else
   puts "I was wrong. Sad face. In binary.\n"
 end
 
-puts "Let's us a ternary expression to see if I'm right:\n"
+puts "Let's use a ternary expression to see if I'm right:\n"
 
 puts yes_no == "yes" ? "I was correct!" : "I was wrong. Sad face. Binary sad face."
